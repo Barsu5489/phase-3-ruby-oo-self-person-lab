@@ -27,11 +27,17 @@ def hygiene=(value)
     end
 end
 def clean?
-if @hygiene > 7
+   if @hygiene > 7
     true
-else
+    else
     false
 end
 end
-
+def happy?
+    if @happiness > 7
+        true
+    else 
+        false
+    end
+end
 end
