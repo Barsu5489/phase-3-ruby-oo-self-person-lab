@@ -40,4 +40,8 @@ def happy?
         false
     end
 end
+def get_paid(amount)
+@bank_account += amount
+'all about the benjamins'
+end
 end
